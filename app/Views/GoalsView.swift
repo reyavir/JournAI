@@ -20,6 +20,10 @@ struct GoalsView: View {
     var body: some View {
         ZStack {
             List {
+                Text("Weekly Goals")
+                    .font(.largeTitle)
+                    .fontWeight(.bold)
+                    .padding(.top, 20)
                 ForEach(goals) { goal in
                     GoalBox(goal: goal, editableTitle: "New Goal")
                         .swipeActions(edge: .trailing, allowsFullSwipe: true) {
