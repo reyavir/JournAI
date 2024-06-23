@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F43E48112C288DFC00106A2D /* calhacks_macApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43E48102C288DFC00106A2D /* calhacks_macApp.swift */; };
+		F43E48132C288DFC00106A2D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43E48122C288DFC00106A2D /* ContentView.swift */; };
+		F43E48152C288DFD00106A2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F43E48142C288DFD00106A2D /* Assets.xcassets */; };
+		F43E48182C288DFD00106A2D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F43E48172C288DFD00106A2D /* Preview Assets.xcassets */; };
+		F43E48232C288DFE00106A2D /* calhacks_macTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43E48222C288DFE00106A2D /* calhacks_macTests.swift */; };
+		F43E482D2C288DFE00106A2D /* calhacks_macUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43E482C2C288DFE00106A2D /* calhacks_macUITests.swift */; };
+		F43E482F2C288DFE00106A2D /* calhacks_macUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43E482E2C288DFE00106A2D /* calhacks_macUITestsLaunchTests.swift */; };
+		F43E483C2C288E2800106A2D /* HealthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43E483B2C288E2800106A2D /* HealthView.swift */; };
+		F43E483E2C288E6600106A2D /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43E483D2C288E6600106A2D /* WelcomeView.swift */; };
+		F43E48402C288EE600106A2D /* MoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43E483F2C288EE600106A2D /* MoodView.swift */; };
+		F43E48422C288EFC00106A2D /* JournalEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43E48412C288EFC00106A2D /* JournalEntryView.swift */; };
+		F43E48442C288F2F00106A2D /* SiriAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43E48432C288F2F00106A2D /* SiriAnimation.swift */; };
+		F43E48462C28911000106A2D /* GoalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43E48452C28911000106A2D /* GoalsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F43E481F2C288DFE00106A2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F43E48052C288DFC00106A2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F43E480C2C288DFC00106A2D;
+			remoteInfo = "calhacks-mac";
+		};
+		F43E48292C288DFE00106A2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F43E48052C288DFC00106A2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F43E480C2C288DFC00106A2D;
+			remoteInfo = "calhacks-mac";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F43E480D2C288DFC00106A2D /* calhacks-mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "calhacks-mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F43E48102C288DFC00106A2D /* calhacks_macApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calhacks_macApp.swift; sourceTree = "<group>"; };
+		F43E48122C288DFC00106A2D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F43E48142C288DFD00106A2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F43E48172C288DFD00106A2D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F43E48192C288DFD00106A2D /* calhacks_mac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = calhacks_mac.entitlements; sourceTree = "<group>"; };
+		F43E481E2C288DFE00106A2D /* calhacks-macTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "calhacks-macTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F43E48222C288DFE00106A2D /* calhacks_macTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calhacks_macTests.swift; sourceTree = "<group>"; };
+		F43E48282C288DFE00106A2D /* calhacks-macUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "calhacks-macUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F43E482C2C288DFE00106A2D /* calhacks_macUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calhacks_macUITests.swift; sourceTree = "<group>"; };
+		F43E482E2C288DFE00106A2D /* calhacks_macUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calhacks_macUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F43E483B2C288E2800106A2D /* HealthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthView.swift; sourceTree = "<group>"; };
+		F43E483D2C288E6600106A2D /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		F43E483F2C288EE600106A2D /* MoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodView.swift; sourceTree = "<group>"; };
+		F43E48412C288EFC00106A2D /* JournalEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntryView.swift; sourceTree = "<group>"; };
+		F43E48432C288F2F00106A2D /* SiriAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiriAnimation.swift; sourceTree = "<group>"; };
+		F43E48452C28911000106A2D /* GoalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F43E480A2C288DFC00106A2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F43E481B2C288DFE00106A2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F43E48252C288DFE00106A2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F43E48042C288DFB00106A2D = {
+			isa = PBXGroup;
+			children = (
+				F43E480F2C288DFC00106A2D /* calhacks-mac */,
+				F43E48212C288DFE00106A2D /* calhacks-macTests */,
+				F43E482B2C288DFE00106A2D /* calhacks-macUITests */,
+				F43E480E2C288DFC00106A2D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F43E480E2C288DFC00106A2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F43E480D2C288DFC00106A2D /* calhacks-mac.app */,
+				F43E481E2C288DFE00106A2D /* calhacks-macTests.xctest */,
+				F43E48282C288DFE00106A2D /* calhacks-macUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F43E480F2C288DFC00106A2D /* calhacks-mac */ = {
+			isa = PBXGroup;
+			children = (
+				F43E48102C288DFC00106A2D /* calhacks_macApp.swift */,
+				F43E48122C288DFC00106A2D /* ContentView.swift */,
+				F43E48142C288DFD00106A2D /* Assets.xcassets */,
+				F43E48192C288DFD00106A2D /* calhacks_mac.entitlements */,
+				F43E48162C288DFD00106A2D /* Preview Content */,
+				F43E483B2C288E2800106A2D /* HealthView.swift */,
+				F43E483D2C288E6600106A2D /* WelcomeView.swift */,
+				F43E483F2C288EE600106A2D /* MoodView.swift */,
+				F43E48412C288EFC00106A2D /* JournalEntryView.swift */,
+				F43E48432C288F2F00106A2D /* SiriAnimation.swift */,
+				F43E48452C28911000106A2D /* GoalsView.swift */,
+			);
+			path = "calhacks-mac";
+			sourceTree = "<group>";
+		};
+		F43E48162C288DFD00106A2D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F43E48172C288DFD00106A2D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F43E48212C288DFE00106A2D /* calhacks-macTests */ = {
+			isa = PBXGroup;
+			children = (
+				F43E48222C288DFE00106A2D /* calhacks_macTests.swift */,
+			);
+			path = "calhacks-macTests";
+			sourceTree = "<group>";
+		};
+		F43E482B2C288DFE00106A2D /* calhacks-macUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F43E482C2C288DFE00106A2D /* calhacks_macUITests.swift */,
+				F43E482E2C288DFE00106A2D /* calhacks_macUITestsLaunchTests.swift */,
+			);
+			path = "calhacks-macUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F43E480C2C288DFC00106A2D /* calhacks-mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F43E48322C288DFE00106A2D /* Build configuration list for PBXNativeTarget "calhacks-mac" */;
+			buildPhases = (
+				F43E48092C288DFC00106A2D /* Sources */,
+				F43E480A2C288DFC00106A2D /* Frameworks */,
+				F43E480B2C288DFC00106A2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "calhacks-mac";
+			productName = "calhacks-mac";
+			productReference = F43E480D2C288DFC00106A2D /* calhacks-mac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F43E481D2C288DFE00106A2D /* calhacks-macTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F43E48352C288DFE00106A2D /* Build configuration list for PBXNativeTarget "calhacks-macTests" */;
+			buildPhases = (
+				F43E481A2C288DFE00106A2D /* Sources */,
+				F43E481B2C288DFE00106A2D /* Frameworks */,
+				F43E481C2C288DFE00106A2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F43E48202C288DFE00106A2D /* PBXTargetDependency */,
+			);
+			name = "calhacks-macTests";
+			productName = "calhacks-macTests";
+			productReference = F43E481E2C288DFE00106A2D /* calhacks-macTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F43E48272C288DFE00106A2D /* calhacks-macUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F43E48382C288DFE00106A2D /* Build configuration list for PBXNativeTarget "calhacks-macUITests" */;
+			buildPhases = (
+				F43E48242C288DFE00106A2D /* Sources */,
+				F43E48252C288DFE00106A2D /* Frameworks */,
+				F43E48262C288DFE00106A2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F43E482A2C288DFE00106A2D /* PBXTargetDependency */,
+			);
+			name = "calhacks-macUITests";
+			productName = "calhacks-macUITests";
+			productReference = F43E48282C288DFE00106A2D /* calhacks-macUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F43E48052C288DFC00106A2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					F43E480C2C288DFC00106A2D = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					F43E481D2C288DFE00106A2D = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = F43E480C2C288DFC00106A2D;
+					};
+					F43E48272C288DFE00106A2D = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = F43E480C2C288DFC00106A2D;
+					};
+				};
+			};
+			buildConfigurationList = F43E48082C288DFC00106A2D /* Build configuration list for PBXProject "calhacks-mac" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F43E48042C288DFB00106A2D;
+			productRefGroup = F43E480E2C288DFC00106A2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F43E480C2C288DFC00106A2D /* calhacks-mac */,
+				F43E481D2C288DFE00106A2D /* calhacks-macTests */,
+				F43E48272C288DFE00106A2D /* calhacks-macUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F43E480B2C288DFC00106A2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F43E48182C288DFD00106A2D /* Preview Assets.xcassets in Resources */,
+				F43E48152C288DFD00106A2D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F43E481C2C288DFE00106A2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F43E48262C288DFE00106A2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F43E48092C288DFC00106A2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F43E483C2C288E2800106A2D /* HealthView.swift in Sources */,
+				F43E48132C288DFC00106A2D /* ContentView.swift in Sources */,
+				F43E48112C288DFC00106A2D /* calhacks_macApp.swift in Sources */,
+				F43E48462C28911000106A2D /* GoalsView.swift in Sources */,
+				F43E48442C288F2F00106A2D /* SiriAnimation.swift in Sources */,
+				F43E48422C288EFC00106A2D /* JournalEntryView.swift in Sources */,
+				F43E483E2C288E6600106A2D /* WelcomeView.swift in Sources */,
+				F43E48402C288EE600106A2D /* MoodView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F43E481A2C288DFE00106A2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F43E48232C288DFE00106A2D /* calhacks_macTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F43E48242C288DFE00106A2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F43E482F2C288DFE00106A2D /* calhacks_macUITestsLaunchTests.swift in Sources */,
+				F43E482D2C288DFE00106A2D /* calhacks_macUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F43E48202C288DFE00106A2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F43E480C2C288DFC00106A2D /* calhacks-mac */;
+			targetProxy = F43E481F2C288DFE00106A2D /* PBXContainerItemProxy */;
+		};
+		F43E482A2C288DFE00106A2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F43E480C2C288DFC00106A2D /* calhacks-mac */;
+			targetProxy = F43E48292C288DFE00106A2D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F43E48302C288DFE00106A2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F43E48312C288DFE00106A2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		F43E48332C288DFE00106A2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "calhacks-mac/calhacks_mac.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"calhacks-mac/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "calhacks.calhacks-mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F43E48342C288DFE00106A2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "calhacks-mac/calhacks_mac.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"calhacks-mac/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "calhacks.calhacks-mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F43E48362C288DFE00106A2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "calhacks.calhacks-macTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/calhacks-mac.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/calhacks-mac";
+			};
+			name = Debug;
+		};
+		F43E48372C288DFE00106A2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "calhacks.calhacks-macTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/calhacks-mac.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/calhacks-mac";
+			};
+			name = Release;
+		};
+		F43E48392C288DFE00106A2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "calhacks.calhacks-macUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "calhacks-mac";
+			};
+			name = Debug;
+		};
+		F43E483A2C288DFE00106A2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "calhacks.calhacks-macUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "calhacks-mac";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F43E48082C288DFC00106A2D /* Build configuration list for PBXProject "calhacks-mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F43E48302C288DFE00106A2D /* Debug */,
+				F43E48312C288DFE00106A2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F43E48322C288DFE00106A2D /* Build configuration list for PBXNativeTarget "calhacks-mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F43E48332C288DFE00106A2D /* Debug */,
+				F43E48342C288DFE00106A2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F43E48352C288DFE00106A2D /* Build configuration list for PBXNativeTarget "calhacks-macTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F43E48362C288DFE00106A2D /* Debug */,
+				F43E48372C288DFE00106A2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F43E48382C288DFE00106A2D /* Build configuration list for PBXNativeTarget "calhacks-macUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F43E48392C288DFE00106A2D /* Debug */,
+				F43E483A2C288DFE00106A2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F43E48052C288DFC00106A2D /* Project object */;
+}
