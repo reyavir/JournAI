@@ -21,6 +21,8 @@
 		F412A9842C276A90005AB6F2 /* HealthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F412A9832C276A90005AB6F2 /* HealthManager.swift */; };
 		F412A9862C27742B005AB6F2 /* GoalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F412A9852C27742B005AB6F2 /* GoalsView.swift */; };
 		F412A9882C278575005AB6F2 /* JournalEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F412A9872C278575005AB6F2 /* JournalEntryView.swift */; };
+		F412A98A2C2792B5005AB6F2 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F412A9892C2792B5005AB6F2 /* LocationView.swift */; };
+		F412A98C2C27A06D005AB6F2 /* SiriAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F412A98B2C27A06D005AB6F2 /* SiriAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,8 @@
 		F412A9832C276A90005AB6F2 /* HealthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthManager.swift; sourceTree = "<group>"; };
 		F412A9852C27742B005AB6F2 /* GoalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsView.swift; sourceTree = "<group>"; };
 		F412A9872C278575005AB6F2 /* JournalEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntryView.swift; sourceTree = "<group>"; };
+		F412A9892C2792B5005AB6F2 /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
+		F412A98B2C27A06D005AB6F2 /* SiriAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiriAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +164,8 @@
 				F412A9802C276864005AB6F2 /* HealthView.swift */,
 				F412A9852C27742B005AB6F2 /* GoalsView.swift */,
 				F412A9872C278575005AB6F2 /* JournalEntryView.swift */,
+				F412A9892C2792B5005AB6F2 /* LocationView.swift */,
+				F412A98B2C27A06D005AB6F2 /* SiriAnimation.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -296,11 +302,13 @@
 			files = (
 				F412A9812C276864005AB6F2 /* HealthView.swift in Sources */,
 				F412A9502C275CBD005AB6F2 /* ContentView.swift in Sources */,
+				F412A98C2C27A06D005AB6F2 /* SiriAnimation.swift in Sources */,
 				F412A97F2C276626005AB6F2 /* JournalView.swift in Sources */,
 				F412A9862C27742B005AB6F2 /* GoalsView.swift in Sources */,
 				F412A94E2C275CBD005AB6F2 /* appApp.swift in Sources */,
 				F412A97A2C275DB6005AB6F2 /* LocationManager.swift in Sources */,
 				F412A9882C278575005AB6F2 /* JournalEntryView.swift in Sources */,
+				F412A98A2C2792B5005AB6F2 /* LocationView.swift in Sources */,
 				F412A97D2C27621A005AB6F2 /* WelcomeView.swift in Sources */,
 				F412A9842C276A90005AB6F2 /* HealthManager.swift in Sources */,
 			);
