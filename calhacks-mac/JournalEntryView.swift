@@ -17,8 +17,8 @@ struct JournalView: View {
         "How are you feeling right now?",
         "What are you grateful for?"
     ]
+    @Environment(\.presentationMode) var presentationMode
 
-        
     var body: some View {
         HStack {
             VStack {
@@ -80,6 +80,25 @@ struct JournalView: View {
             }
         }
         .padding()
+        .toolbar {
+            // 2
+            ToolbarItem() {
+
+                Button {
+                    // 3
+                    presentationMode.wrappedValue.dismiss()
+
+                } label: {
+                    // 4
+                    HStack {
+
+                        Image(systemName: "chevron.left")
+                        Text("Back")
+                    }
+                }
+            }
+        }
+        .navigationTitle("Journal Entry")
     }
     
         var formattedDate: String {
@@ -151,5 +170,5 @@ struct FlowingText: View {
 }
 
 #Preview {
-    JournalView()
+    JournalView().frame(width: 800, height: 500)
 }

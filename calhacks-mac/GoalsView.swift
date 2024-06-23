@@ -18,45 +18,46 @@ struct GoalsView: View {
     @State private var draggingItem: Goal?
     
     var body: some View {
-        ZStack {
-            List {
-                Text("Weekly Goals")
-                    .font(.largeTitle)
-                    .fontWeight(.bold)
-                    .padding(.top, 20)
-                ForEach(goals) { goal in
-                    GoalBox(goal: goal, editableTitle: "New Goal")
-                        .swipeActions(edge: .trailing, allowsFullSwipe: true) {
-                        Button(role: .destructive) {
-                            deleteGoal(goal)
-                        } label: {
-                            Label("Delete", systemImage: "trash")
-                        }
+        VStack{
+            ZStack {
+                List {
+                    Text("Weekly Goals")
+                        .font(.largeTitle)
+                        .fontWeight(.bold)
+                        .padding(.top, 20)
+                    ForEach(goals) { goal in
+                        GoalBox(goal: goal, editableTitle: "New Goal")
+                            .swipeActions(edge: .trailing, allowsFullSwipe: true) {
+                                Button(role: .destructive) {
+                                    deleteGoal(goal)
+                                } label: {
+                                    Label("Delete", systemImage: "trash")
+                                }
+                            }
                     }
+                    
                 }
+                .listStyle(PlainListStyle())
                 
-            }
-            .listStyle(PlainListStyle())
-            
-            VStack {
-                Spacer()
-                HStack {
+                VStack {
                     Spacer()
-                    Button(action: addNewGoal) {
-                        Image(systemName: "plus.circle.fill")
-                            .resizable()
-                            .frame(width: 60, height: 60)
-                            .foregroundColor(.blue)
-                            .background(Color.white)
-                            .clipShape(Circle())
-                            .shadow(radius: 5)
+                    HStack {
+                        Spacer()
+                        Button(action: addNewGoal) {
+                            Image(systemName: "plus.circle.fill")
+                                .resizable()
+                                .frame(width: 60, height: 60)
+                                .foregroundColor(.blue)
+                                .background(Color.white)
+                                .clipShape(Circle())
+                                .shadow(radius: 5)
+                        }
+                        .padding(.trailing, 20)
+                        .padding(.bottom, 20)
                     }
-                    .padding(.trailing, 20)
-                    .padding(.bottom, 20)
                 }
             }
-        }
-        .navigationTitle("Goals")
+        }.navigationTitle("Goals: Conquer the Day")
     }
     func addNewGoal() {
         let newGoal = Goal(title: "New Goal", color: randomColor())

@@ -13,20 +13,9 @@ struct WelcomeView: View {
     @State private var isAnimating = false
     
     var body: some View {
-        NavigationView {
-            Form {
-                SectionList(entries: [
-                    ("Journal Entries", "book.closed", Color.blue),
-                    ("Health Tracking", "heart.circle", Color.red),
-                    ("Weekly Goals", "flag.circle", Color.green),
-                    ("Mood Tracking", "face.smiling", Color.yellow),
-//                    ("Exercise Log", "figure.walk", Color.orange),
-//                    ("Meal Planner", "fork.knife", Color.purple),
-//                    ("Sleep Analysis", "bed.double", Color.indigo)
-                ])
-            }
-            
-            VStack {
+        NavigationStack {
+            VStack{
+                
                 ZStack {
                     VStack {
                         Spacer()
@@ -39,11 +28,11 @@ struct WelcomeView: View {
                             .overlay(
                                 LinearGradient(gradient: Gradient(colors: [Color.red, Color.orange]), startPoint: .leading, endPoint: .trailing)
                                     .mask(Text("Welcome to DreamDiary")
-                                            .font(.largeTitle)
-                                            .fontWeight(.bold)
-                                            .foregroundColor(.white)
-                                            .multilineTextAlignment(.center)
-                                            .padding()
+                                        .font(.largeTitle)
+                                        .fontWeight(.bold)
+                                        .foregroundColor(.white)
+                                        .multilineTextAlignment(.center)
+                                        .padding()
                                     )
                             )
                             .scaleEffect(isAnimating ? 1.2 : 1.0)
@@ -53,7 +42,7 @@ struct WelcomeView: View {
                             TextField("Username", text: $username)
                                 .textFieldStyle(RoundedBorderTextFieldStyle())
                                 .padding(.horizontal)
-        
+                            
                             SecureField("Password", text: $password)
                                 .textFieldStyle(RoundedBorderTextFieldStyle())
                                 .padding(.horizontal)
@@ -65,10 +54,19 @@ struct WelcomeView: View {
                 .onAppear {
                     self.isAnimating = true
                 }
-                Spacer()
+                VStack{
+                    //NavigationStack{
+                        NavigationLink(destination: NavigationManagerView())
+                        {
+                            Text("Continue")
+                        }
+                    //}
+                    
+                    
+                }
             }
-            .padding()
         }
+        .padding()
     }
 }
 
