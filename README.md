@@ -5,5 +5,7 @@ Not only that, but we also used humeAI's powers to gain a deeper understanding o
 To further enhance the experience, we incorporated Groq low-latency inference to produce real-time guiding questions that are tailored to the unique context of each user's input. This means that the questions our users receive are skillfully constructed and intended to assist them in navigating their thoughts and emotions with greater clarity and insight.
 
 Demo: https://youtu.be/KXw0H4-0Tj8
+
 Backend: https://github.com/KevGomes1403/journalml
+
 Devpost: https://devpost.com/software/journai-e62r7n
