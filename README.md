@@ -9,3 +9,5 @@ Demo: https://youtu.be/KXw0H4-0Tj8
 Backend: https://github.com/KevGomes1403/journalml
 
 Devpost: https://devpost.com/software/journai-e62r7n
+
+Team: Reya Vir, Kushagra Srivastava, Kevin Gomes, Jason Lee
